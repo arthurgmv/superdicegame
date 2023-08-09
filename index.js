@@ -6,17 +6,17 @@ function playGame() {
         let img01 = document.querySelector(".img1"); // Alterado de ".img01"
 
         if (randomNumber === 1) {
-            img01.setAttribute("src", "images/dice1.png");
+            img01.setAttribute("src", "dice1.png");
         } else if (randomNumber === 2) {
-            img01.setAttribute("src", "images/dice2.png");
+            img01.setAttribute("src", "dice2.png");
         } else if (randomNumber === 3) {
-            img01.setAttribute("src", "images/dice3.png");
+            img01.setAttribute("src", "dice3.png");
         } else if (randomNumber === 4) {
-            img01.setAttribute("src", "images/dice4.png");
+            img01.setAttribute("src", "dice4.png");
         } else if (randomNumber === 5) {
-            img01.setAttribute("src", "images/dice5.png");
+            img01.setAttribute("src", "dice5.png");
         } else {
-            img01.setAttribute("src", "images/dice6.png");
+            img01.setAttribute("src", "dice6.png");
         }
 
         return randomNumber;
@@ -28,17 +28,17 @@ function playGame() {
         let img02 = document.querySelector(".img2"); // Alterado de ".img02"
 
         if (randomNumber === 1) {
-            img02.setAttribute("src", "images/dice1.png");
+            img02.setAttribute("src", "dice1.png");
         } else if (randomNumber === 2) {
-            img02.setAttribute("src", "images/dice2.png");
+            img02.setAttribute("src", "dice2.png");
         } else if (randomNumber === 3) {
-            img02.setAttribute("src", "images/dice3.png");
+            img02.setAttribute("src", "dice3.png");
         } else if (randomNumber === 4) {
-            img02.setAttribute("src", "images/dice4.png");
+            img02.setAttribute("src", "dice4.png");
         } else if (randomNumber === 5) {
-            img02.setAttribute("src", "images/dice5.png");
+            img02.setAttribute("src", "dice5.png");
         } else {
-            img02.setAttribute("src", "images/dice6.png");
+            img02.setAttribute("src", "dice6.png");
         }
 
         return randomNumber;
